@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GLOW BEAUTY SALON </title>
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="description" content="Glow Beauty Salon Bethal offers professional hair, nails, braids and skincare. Book acrylic nails, manicures and facials today.">
+<meta name="keywords" content="beauty salon Bethal, nails Bethal, hair salon, acrylic nails">
+<!-- PUT SCRIPT HERE -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+  <div class="logo-left">
+    <img src="images/logo.png" alt="Glow Beauty Salon Logo">
+    <span class="org-name">Glow Beauty Salon</span>
+  </div>
+  
+  <nav>
+    <button class="menu-icon"
+    onclick="toggleMenu()">☰</button>
+    <ul id="navMenu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+    
+    <main>
+        <div class="card"> 
+        <section>
+            <h2>Book your appointment</h2>
+            <p>Fill in the form below and we will contact you within 24 hours to confirm your booking</p>
+
+            <div class="form-container">
+            <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfKIK7qQVG1io6HuPpJ74ABXM8djNuO7EXPuwPE5-x5bz_Uag/viewform?embedded=true" 
+            width="650" 
+            height="800" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+            Loading…
+            
+        </iframe>
+            </div>
+        </section>
+
+        <section>
+        <h2>Book Us to feel confident</h2>
+            <p>Address: [10th street] <br>[Bethal, Mpumalanga]<br>South Africa</p>
+            <p>Phone: 079 440 7643 | Email: info@glowbeautysalon.co.za</p>
+            <p>Working Hours: 7am-6pm | MON-Sat</p>
+
+            <h3>Find us</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57146.407727036436!2d29.412736258936036!3d-26.466993090121132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eeba043762c09f1%3A0x50d0b42f5dc67631!2sBethal%2C%202310!5e0!3m2!1sen!2sza!4v1777576342127!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </section>
+    </div>
+    </main>
+
+<!-- Footer with Live Date + Auto Year -->
+<footer>
+  <div class="footer-content">
+    <p><strong>Glow Beauty Salon</strong></p>
+    <p>10th Street, Bethal | Phone: 079 440 7643 | Email: info@glowbeautysalon.co.za</p>
+    
+    <p id="dateTime"></p> <!-- Live date/time updates here -->
+    <p>&copy;<span id="currentYear"></span> Glow Beauty Salon. All rights reserved.</p> <!-- Auto year -->
+  </div>
+</footer>
+</body>
+</html>
